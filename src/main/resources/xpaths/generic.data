@@ -1,0 +1,335 @@
+#GOOGLE
+//a[contains(@href,'doubleclick.net')]//img
+//*[contains(@flashvars,'doubleclick.net') and (self::object or self::embed)]
+//object/param[@name='FlashVars']
+//a[contains(@href,'googleadservices.com')]//img
+//*[contains(@flashvars,'googleadservices.com') and (self::object or self::embed)]
+//*[contains(@src,'googlesyndication') and (self::img or self::embed or self::video)]
+//object[contains(@data,'googlesyndication')]
+//div[contains(@id,'google_ads_')]//*[self::img or self::embed or self::video or self::object]
+//*[contains(@src,'2mdn.net') and (self::img or self::embed or self::video)]
+//object[contains(@data,'2mdn.net')]
+#Google for publishers (video preroll)
+//video[contains(@src,'gfp_video_ads')]
+
+#TRADEFXADS
+//*[contains(@src,'tradefxads') and (self::img or self::embed or self::video)]
+//object[contains(@flashvars,'tradefxads')]
+//object[contains(@data,'tradefxads')]
+
+#ADROLL
+//a[contains(@href,'adroll')]//img
+//*[contains(@src,'adroll') and (self::img or self::embed or self::video)]
+//object[contains(@data,'adroll')]
+
+#SMARTADSERVER
+//a[contains(@href,'sascdn.com')]//img
+//object[contains(@data,'sascdn.com')]
+//*[contains(@src,'sascdn.com') and (self::img or self::embed or self::video)]
+
+//a[contains(@href,'smartadserver')]//img
+//embed[contains(@flashvars,'smartadserver')]
+//object[contains(@data,'smartadserver')]
+//embed[contains(@src,'smartadserver')]
+
+//a[contains(@src,'saspreview.com')]//img
+//object[contains(@data,'saspreview.com')]
+//*[contains(@src,'saspreview.com') and (self::img or self::embed or self::video)]
+
+#PUBONLINE
+//object[contains(@data,'pubonline')]
+//*[contains(@src,'pubonline') and (self::img or self::embed or self::video)]
+//a[contains(@href,'pubonline')]//img
+
+#ADTECH
+//object[starts-with(@id,'adtechAdContent_')]
+//a[contains(@href,'adtech')]//img
+//*[contains(@src,'adtech') and (self::img or self::embed or self::video)]
+
+#AOL-PICTELA
+//*[contains(@src,'pictela.net') and (self::img or self::embed or self::video)]
+//object[contains(@data,'pictela.net')]
+
+#MEDIAMIND SERVING-SYS
+//object[contains(@data,'serving-sys.com')]
+//*[contains(@src,'serving-sys.com') and (self::img or self::embed or self::video)]
+//a[contains(@href,'serving-sys.com')]//img
+
+#MADCENTS E-MANAGEMENT.MA
+//object[contains(@data,'e-management.ma')]
+//*[contains(@src,'e-management.ma') and (self::img or self::embed or self::video)]
+
+#247REALMEDIA
+//object[contains(@data,'247realmedia')]
+//*[contains(@src,'247realmedia') and (self::img or self::embed or self::video)]
+
+#OPENX REVIVE
+//div[contains(@id,'ox_')]//embed
+//a[contains(@href,'ck.php')]//img
+//embed[contains(@flashvars,'ck.php')]
+//a[contains(@href,'openx.net')]//img
+//*[@data-ad-id]//*[self::img or self::embed or self::video or self::object]
+
+#ZEDO
+//*[contains(@src,'zedo.com') and (self::img or self::embed or self::video)]
+//object[contains(@data,'zedo.com')]
+//a[contains(@href,'zedo.com')]//img
+
+#NETAFFILIATION METAFFILIATION
+//*[contains(@src,'metaffiliation.com') and (self::img or self::embed or self::video)]
+//embed[contains(@src,'metaffiliation.com')]
+//a[contains(@href,'metaffiliation.com')]//img
+
+#ADVENTUREMEDIAGLOBAL
+//*[contains(@src,'adventuremediaglobal') and (self::img or self::embed or self::video)]
+//object[contains(@data,'adventuremediaglobal')]
+
+#TRADEDOUBLER
+//*[contains(@src,'tradedoubler.com') and (self::img or self::embed or self::video)]
+//object[contains(@data,'tradedoubler.com')]
+
+#CRITEO APPNEXUS
+//*[contains(@src,'adnxs.com') and (self::img or self::embed or self::video)]
+//object[contains(@flashvars,'adnxs.com')]
+
+#ADITION
+//*[contains(@src,'adition.com') and (self::img or self::embed or self::video)]
+//object[contains(@data,'adition.com')]
+//img[contains(@id,'interstitial_img')]
+
+#ADSERVER.MA
+//*[contains(@src,'adserver.ma') and (self::img or self::embed or self::video)]
+//object[contains(@data,'adserver.ma')]
+
+#MEDIAPLEX
+//*[contains(@src,'mediaplex.com') and (self::img or self::embed or self::video)]
+//object[contains(@data,'mediaplex.com')]
+
+#AD AGENCY JOOMLA CRM
+//*[contains(@src,'stories/ad_agency') and (self::img or self::embed or self::video)]
+//object[contains(@data,'stories/ad_agency')]
+
+#REVENUEHITS RHTAG
+//*[contains(@src,'rhtag.com') and (self::img or self::embed or self::video)]
+//object[contains(@data,'rhtag.com')]
+
+#GENERIC (IAB STANDARDS)
+//a[contains(@href,'utm_source') or contains(@href,'utm_medium') or contains(@href,'utm_campaign') or contains(@href,'utm_content')]//img
+//*[(contains(@flashvars,'utm_source') or contains(@flashvars,'utm_medium') or contains(@flashvars,'utm_campaign') or contains(@flashvars,'utm_content')) and (self::object or self::embed)]
+
+#TAGWIN
+//*[contains(@src,'tagnwin.com') and (self::img or self::embed or self::video)]
+//object[contains(@data,'tagnwin.com')]
+
+#ADWEB (MAROC)
+//*[contains(@src,'adweb.co.ma') and (self::img or self::embed or self::video)]
+//object[contains(@data,'adweb.co.ma')]
+
+#RUBICONPROJECT
+//*[contains(@src,'rubiconproject.com') and (self::img or self::embed or self::video)]
+//object[contains(@data,'rubiconproject.com')]
+
+#MSN AND ADVERTSERVE
+//*[contains(@title|@alt,'Click Here')]
+
+#ADVERTSERVE
+//*[contains(@src,'advertserve.com') and (self::img or self::embed or self::video)]
+//object[contains(@data,'advertserve.com')]
+
+#ABSOLUTE BANNER MANAGER .NET (XIGLA)
+//a[contains(@href,'abmc.aspx')]//img
+
+#CASTPLATFORM
+//*[contains(@src,'castplatform.com') and (self::img or self::embed or self::video)]
+//object[contains(@data,'castplatform.com')]
+
+#THEMONEYTIZER (TO BE TESTED)
+//*[contains(@src,'themoneytizer.com') and (self::img or self::embed or self::video)]
+//object[contains(@data,'themoneytizer.com')]
+
+#STANDARD ? FOUND ON YAHOO
+//a[contains(@href,'msource')]//img
+
+#OUTBRAIN.COM
+//*[contains(@src,'outbrain.com')]
+
+#adform
+//*[contains(@src,'adform.net')]
+################### TODO IN SEPARATE FILE ######################
+
+##SPECIFICS
+#HESPRESS
+//div[@id='advertiser_background']//img
+
+#GOUD & FEBRAYER
+//object[contains(@href,'ads/')]
+
+#FEBRAYER
+//div[contains(@id,'_pub')]//object
+//a[contains(@href,'ads/')]//img
+
+#ART19
+//div[contains(@class,'bannercustom')]//img
+//img[contains(@src,'/pub/')]
+//embed[contains(@src,'/pub/')]
+//object[contains(@data,'/pub/')]
+//div[contains(@class,'ads')]//img|//div[contains(@class,'ads')]//embed|//div[contains(@class,'ads')]//object
+
+
+#L'infomédiaire
+//div[@id='habillage']//img
+//a[contains(@href,'/ad/')]//img
+
+
+#ChoufTV
+//div[contains(@class,'ads300')]//div[@class='youtube']
+
+#le360
+//*[contains(@src,'/ads360/')]
+
+#n24 (ex: bouzypress)
+//div[starts-with(@class,'ads')]//img
+//div[starts-with(@class,'ads_')]//object
+//div[starts-with(@class,'ads_')]//embed
+
+#nichane
+//div[@id='block-block-11']//div[@class='content']//img
+//div[@id='block-block-13']//div[@class='content']//img
+
+#kifache
+//div[@id='top_300x250']//img
+//div[starts-with(@class,'ad')]//img
+//div[starts-with(@class,'ad')]//embed
+//div[starts-with(@class,'ad')]//object
+
+#telquel
+//div[contains(@id,'-hab')]//img
+
+#elbotola
+//div[@id='habillage']/..
+
+#lavieeco
+//div[starts-with(@id,'deco')]//img
+
+#le2minutes
+//*[contains(@src,'pub/')]
+//div[@class='banniere']//img
+
+#maroc-hebdo
+//*[contains(@data,'banners')]
+//*[contains(@src,'banners')]
+
+#femmes du maroc
+//img[contains(@src,'pub_image')]
+
+#selektimmo.com
+//a[contains(@href,'banniere')]/img
+//embed[contains(@src,'banniere')]
+
+#leseco.ma
+//div[@id='BanSpaceTop']//img
+//div[@id='BanSpaceTop']//embed
+//div[@id='BanSpaceTop']//oject
+
+#VIDEO
+#chouftv
+//div[starts-with(@class,'ads')]//iframe[contains(@src,'youtube')]
+
+
+#Tayyar.org
+//*[contains(@src,'ads.tayyar.org')]
+//object[contains(@flashvars,'ads.tayyar.org') or contains(@data,'ads.tayyar.org')]
+
+#Lebanonfiles.com
+//object[contains(@data,'lebanonfiles.com/files/ads')]
+//*[contains(@src,'lebanonfiles.com/files/ads')]
+
+//a[contains(@href,'redirect.aspx')]
+
+
+#ANNAHAR.COM
+//*[contains(@src,'dmscg.com')]
+//object[contains(@data,'dmscg.com')]
+
+#QUELLEVOITURE.MA
+//*[contains(@class,'hp-top-banner')]//*[self::img or self::embed or self::object or self::video]
+
+#2M.MA
+//*[contains(@src,'bans') and (self::img or self::embed or self::video)]
+//object[contains(@data,'bans')]
+
+#WHEELS.AE
+//a[contains(@href,'wheels.ae/sponsored-content')]/img
+
+#SOUQ.COM
+//div[contains(@class,'ads-box')]//*[self::img or self::embed or self::object or self::video]
+//comment()[contains(.,'ads') or contains(.,'Ads')]/following-sibling::div//*[self::img or self::embed or self::object or self::video][not(contains(@src,'dubaicityinfo.com'))]
+#//comment()[contains(.,'ads') or contains(.,'Ads')]/following-sibling::div//*[self::img or self::embed or self::object or self::video]
+
+#Q8CAR.COM
+//a[contains(@href,'BannerClick')]//img
+//a[contains(@href,'adserver.q8car.com')]//*[self::img or self::embed or self::object or self::video]
+//*[contains(@src,'q8car-ads-server')]
+
+#AL-JARIZAH.COM
+//a[contains(@href,'ads.pl')]//img
+
+#KHABERNI.COM
+//div[@data-ad-space-id]//*[self::img or self::embed or self::object or self::video]
+//*[contains(@class,'ejaraimageads')]//img
+
+#JORDANZAD.COM AND SARAYANEWS
+//a[contains(@href,'ad.php?')]//*[self::img or self::embed or self::object or self::video]
+
+#ADDUSTOUR.COM
+//div[contains(@id,'extra_banner')]//*[self::img or self::embed or self::video]
+//div[@id='hsoub_ad_banner_overlay']|//div[@id='hsoub_ad_banner']
+
+#SEDTY.COM
+//a[contains(@href,'/adv/')]//*[self::img or self::embed or self::object or self::video]
+
+#ALANBA.COM.KW
+//a[contains(@href,'adsrv.alanba.com.kw')]//*[self::img or self::embed or self::object or self::video]
+//*[contains(@src,'adsrv.alanba.com.kw')]
+
+#ALANBA.COM.KW
+//a[contains(@href,'advt.manoramaonline.com')]//*[self::img or self::embed or self::object or self::video]
+//*[contains(@src,'advt.manoramaonline.com')]
+
+#MANORAMAONLINE
+//a[contains(@href,'advt.manoramaonline.com')]//*[self::img or self::embed or self::object or self::video]
+//*[contains(@src,'advt.manoramaonline.com')]
+
+#ALRAI.COM
+//a[contains(@href,'ads.alrai.com')]//*[self::img or self::embed or self::object or self::video]
+//*[contains(@src,'ads.alrai.com')]
+
+#azyya.com
+//a[contains(@href,'aff_id=') and contains(@href,'aff_id=')]//img
+
+//video[contains(@src,'teads.tv')]
+//video[contains(@src,'googlevideo.com')]
+//video[contains(@src,'selectmedia.asia')]
+
+# ALL ads with affiliaxe.com are adsense
+//a[contains(@href,'affiliaxe.com')]//img
+
+#Habillage lallamoulati.net
+//div[contains(@class,'advert-out-top')]//img
+//img[contains(@src,'lalamoulati.net/habillage')]
+
+#Videos  alanbaa
+//div[contains(@class,'popupAdzone')]//iframe[contains(@src,'youtube')]
+
+#GENERIC VIDEOS
+//iframe[contains(@src,'youtube.com') and contains(@src,'ad_type')]
+
+#Video HESPRESS
+//div[@id='playerholder']/iframe|//iframe[contains(@src,'vidId')]
+
+
+#VOGUE.ME
+//*[contains(@src,'nervora.net')]
+
+#DERWAZA (KUWAIT)
+//*[contains(@src,'AdvertisementPictures')]

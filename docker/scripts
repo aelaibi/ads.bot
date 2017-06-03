@@ -1,0 +1,1 @@
+rancher --host 1h9 docker run  --restart=always --name robot-1 -e ROBOT_ID=34 -e TZ=Asia/Kuwait -e ARTIFACTS_HOST=https://www.dropbox.com/s/2tza28rj9kc7uf2 -d -p 9934:5901 monitoring.pixitrend.com:5000/labs/robot:v2.0

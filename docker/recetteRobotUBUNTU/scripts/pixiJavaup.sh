@@ -1,0 +1,1 @@
+if ! pgrep java; then echo `date +\%d-\%m-\%Y-\%T` -- Robot is not running, gotta run it! && (nohup ./start-with-libs.sh >/dev/null 2>&1 &);fi;

@@ -1,0 +1,31 @@
+filebeat:
+  prospectors:
+    -
+      paths:
+        - /root/ROBOT/ads.robot-1.0-RELEASE/logs/robot.log
+      #  - /var/log/secure
+      #  - /var/log/messages
+      #  - /var/log/*.log
+
+      input_type: log
+
+      document_type: robotlog
+      multiline:
+        pattern: '^[0-9]{4}-[0-9]{2}-[0-9]{2}'
+        negate: true
+        match: after
+  registry_file: /var/lib/filebeat/registry
+
+output:
+  logstash:
+    hosts: ["212.47.244.119:5044"]
+    bulk_max_size: 1024
+
+    tls:
+      certificate_authorities: ["/etc/pki/tls/certs/logstash-forwarder.crt"]
+
+shipper:
+
+logging:
+  files:
+    rotateeverybytes: 10485760 # = 10MB
